@@ -1,0 +1,254 @@
+{
+ "properties": {
+  "displayName": "v2tag-governance",
+  "policyType": "Custom",
+  "description": "v2 subscription tags inhereited from v2 management",
+  "metadata": {
+   "category": "Tags",
+   "version": "v2",
+   "createdBy": "01ca44d1-ecf8-4cbe-a281-91521c7e7e81",
+   "createdOn": "2021-03-07T05:39:47.9494145Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {
+   "LocationBusOwner": {
+    "type": "String",
+    "metadata": {
+     "displayName": "LocationBusOwner",
+     "description": "LocationBusOwner"
+    },
+    "defaultValue": "LocationBusOwner"
+   },
+   "SpokeCode": {
+    "type": "String",
+    "metadata": {
+     "displayName": "SpokeCode",
+     "description": "SpokeCode"
+    },
+    "defaultValue": "SpokeCode"
+   },
+   "TechOwner": {
+    "type": "String",
+    "metadata": {
+     "displayName": "TechOwner",
+     "description": "TechOwner"
+    },
+    "defaultValue": "TechOwner"
+   },
+   "SpokeName": {
+    "type": "String",
+    "metadata": {
+     "displayName": "SpokeName",
+     "description": "SpokeName"
+    },
+    "defaultValue": "SpokeName"
+   },
+   "SubSeg": {
+    "type": "String",
+    "metadata": {
+     "displayName": "SubSeg",
+     "description": "SubSeg"
+    },
+    "defaultValue": "SubSeg"
+   },
+   "BusOwner": {
+    "type": "String",
+    "metadata": {
+     "displayName": "BusOwner",
+     "description": "BusOwner"
+    },
+    "defaultValue": "BusOwner"
+   },
+   "Function": {
+    "type": "String",
+    "metadata": {
+     "displayName": "Function",
+     "description": "Function"
+    },
+    "defaultValue": "Function"
+   },
+   "SLA": {
+    "type": "String",
+    "metadata": {
+     "displayName": "SLA",
+     "description": "SLA"
+    },
+    "defaultValue": "SLA"
+   },
+   "Other": {
+    "type": "String",
+    "metadata": {
+     "displayName": "Other",
+     "description": "Other"
+    },
+    "defaultValue": "Other"
+   },
+   "Other2UKnown": {
+    "type": "String",
+    "metadata": {
+     "displayName": "Other2UKnown",
+     "description": "Other2UKnown"
+    },
+    "defaultValue": "Other2UKnown"
+   },
+   "SOX": {
+    "type": "String",
+    "metadata": {
+     "displayName": "SOX",
+     "description": "SOX"
+    },
+    "defaultValue": "SOX"
+   }
+  },
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "LocationBusOwner",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+    "parameters": {
+     "tagName": {
+      "value": "LocationBusOwner"
+     },
+     "tagValue": {
+      "value": "[parameters('LocationBusOwner')]"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "SpokeCode",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+    "parameters": {
+     "tagName": {
+      "value": "SpokeCode"
+     },
+     "tagValue": {
+      "value": "[parameters('SpokeCode')]"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "TechOwner",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+    "parameters": {
+     "tagName": {
+      "value": "TechOwner"
+     },
+     "tagValue": {
+      "value": "[parameters('TechOwner')]"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "SpokeName",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+    "parameters": {
+     "tagName": {
+      "value": "SpokeName"
+     },
+     "tagValue": {
+      "value": "[parameters('SpokeName')]"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "SubSeg",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+    "parameters": {
+     "tagName": {
+      "value": "SubSeg"
+     },
+     "tagValue": {
+      "value": "[parameters('SubSeg')]"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "BusOwner",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+    "parameters": {
+     "tagName": {
+      "value": "BusOwner"
+     },
+     "tagValue": {
+      "value": "[parameters('BusOwner')]"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Function",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+    "parameters": {
+     "tagName": {
+      "value": "Function"
+     },
+     "tagValue": {
+      "value": "[parameters('Function')]"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "SLA",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+    "parameters": {
+     "tagName": {
+      "value": "SLA"
+     },
+     "tagValue": {
+      "value": "[parameters('SLA')]"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Other",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+    "parameters": {
+     "tagName": {
+      "value": "Other"
+     },
+     "tagValue": {
+      "value": "[parameters('Other')]"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Other2Uknown",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+    "parameters": {
+     "tagName": {
+      "value": "Other2Uknown"
+     },
+     "tagValue": {
+      "value": "[parameters('Other2UKnown')]"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "SOX",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+    "parameters": {
+     "tagName": {
+      "value": "SOX"
+     },
+     "tagValue": {
+      "value": "[parameters('SOX')]"
+     }
+    },
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/362f4b0c-2df8-449a-906d-93be07218e93/providers/Microsoft.Authorization/policySetDefinitions/999848e3dade4e139a16220e",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "999848e3dade4e139a16220e"
+}
